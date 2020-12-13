@@ -1,0 +1,16 @@
+name: pdga
+channels:
+  - defaults
+  - rdkit
+  - tmap
+  - conda-forge
+dependencies:
+  - python=3.6
+  - rdkit
+  - tmap
+  - pip
+  - jupyterlab
+  - pip:
+    - faerun
+    - mhfp
+    - git+https://github.com/reymond-group/map4
