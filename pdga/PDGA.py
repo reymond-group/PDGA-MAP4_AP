@@ -151,7 +151,6 @@ class PDGA:
             map4 = fps[i]
             smiles = smiles_l[i]
             distance = self.distancefn(self.query_fp, map4)
-            print(self.distancefn)
             if distance <= self.sim_treshold:
                 utils.write_results(self.results_path, smiles, seq, map4, distance)
             dist_dict[seq] = distance
