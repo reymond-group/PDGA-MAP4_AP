@@ -1,5 +1,6 @@
 To install the required environment run:
 > conda env create -f environment.yml
+
 > conda activate pdga
 
 Modify the run.py file and run it giving a seed as argument 
