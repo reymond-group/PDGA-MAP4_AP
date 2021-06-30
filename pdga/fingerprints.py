@@ -50,7 +50,7 @@ class get_map4_distancefn:
                 self._fn = dice_map4_string
 
     def __call__(self, a, b):
-        self._fn(a,b)
+        return self._fn(a,b)
 
     def __repr__(self) -> str:
         if self.return_strings:
